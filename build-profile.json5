@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "0000001BEF647245C08A3089C9067100FFC96B6F5AA2EBD43A344ED695F788137007924966D75F6A926A2B",
+          "certpath": "/Users/bytedance/Desktop/release.cer",
+          "keyAlias": "testAlias",
+          "keyPassword": "0000001B7F285CF884628827F53D59853CEDDC6505B1CEC7D25F710A20422029FF23FD1FAA677B0B251698",
+          "profile": "/Users/bytedance/Desktop/releaseRelease.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/bytedance/Desktop/testkey.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
