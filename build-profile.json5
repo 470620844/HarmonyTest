@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "storePassword": "0000001BEF647245C08A3089C9067100FFC96B6F5AA2EBD43A344ED695F788137007924966D75F6A926A2B",
-          "certpath": "/Users/bytedance/Desktop/release.cer",
-          "keyAlias": "testAlias",
-          "keyPassword": "0000001B7F285CF884628827F53D59853CEDDC6505B1CEC7D25F710A20422029FF23FD1FAA677B0B251698",
-          "profile": "/Users/bytedance/Desktop/releaseRelease.p7b",
+          "certpath": "/Users/bytedance/.ohos/config/default_MyApplication_f_q7cWavTpNWMz9yfNc-1UuSQ-DvQuNhve_wKQ5aEv0=.cer",
+          "storePassword": "0000001BF35201CE39C8DF00804919B9498C41951BE83273C0DCCBE8C90A30FC863A3BCCE0E2537C075253",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B334FBE1D271AC0EECECF91B1C3184F4CDD48A5ED4C1E75850F87713A9DFD5E3C4FE4CE5E791650",
+          "profile": "/Users/bytedance/.ohos/config/default_MyApplication_f_q7cWavTpNWMz9yfNc-1UuSQ-DvQuNhve_wKQ5aEv0=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/bytedance/Desktop/testkey.p12"
+          "storeFile": "/Users/bytedance/.ohos/config/default_MyApplication_f_q7cWavTpNWMz9yfNc-1UuSQ-DvQuNhve_wKQ5aEv0=.p12"
         }
       }
     ],

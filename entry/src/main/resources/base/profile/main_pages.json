@@ -2,6 +2,7 @@
   "src": [
     "pages/DropGrid",
     "pages/HarmonyDialog",
-    "pages/AxiosTest"
+    "pages/AxiosTest",
+    "pages/TestWorker"
   ]
 }
